@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>豆瓣</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery-weui.min.css">
+    <link rel="stylesheet" href="./css/weui.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">   
+</head>
+<body>
+    <div id="douban">豆瓣</div>
+    <div class="weui-tab">
+         <div class="kong"></div>
+        <div class="weui-tab__bd">
+           
+            <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+                <div class="weui-search-bar" id="searchBar">
+                    <form class="weui-search-bar__form">
+                        <div class="weui-search-bar__box">
+                            <i class="weui-icon-search"></i>
+                            <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索"
+                                required="">
+                            <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                        </div>
+                        <label class="weui-search-bar__label" id="searchText">
+                            <i class="weui-icon-search"></i>
+                            <span>搜索</span>
+                        </label>
+                    </form>
+                    <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./img/banner01.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/banner02.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./img/banner03.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <h3>我的关注</h3>
+                <div class="weui-grids">
+                    <a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/01.jpg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            电影
+                        </p>
+                    </a>
+                    <a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/02.png" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            电视
+                        </p>
+                    </a>
+                    <a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/03.jpg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            图书
+                        </p>
+                    </a><a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/04.png" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            同城
+                        </p>
+                    </a><a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/05.jpg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            小组
+                        </p>
+                    </a><a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/06.png" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            音乐
+                        </p>
+                    </a><a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/07.jpg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            阅读
+                        </p>
+                    </a><a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/08.jpg" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            游戏
+                        </p>
+                    </a><a href="" class="weui-grid js_grid">
+                        <div class="weui-grid__icon">
+                            <img src="./img/09.png" alt="">
+                        </div>
+                        <p class="weui-grid__label">
+                            应用
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div id="tab2" class="weui-tab__bd-item">
+                <div class='read_cont'>
+                    <h2>落叶的爱<h3>
+                            <h5> 作者：六月天气</h5>
+                            <img src="./img/pic.jpg" alt="">
+                            <p>晚秋的阳光</p>
+                            <p>暖融融 </p>
+                            <p>酷似寒冬的温怀</p><br>
+                            <p>经历过岁月洗礼的叶子</p>
+                            <p>静静地躺在温床上</p>
+                            <p>感受着这怀抱里</p>
+                            <p>所滋生出的温馨的柔情</p><br>
+                            <p>曾经的青葱年华</p>
+                            <p>悄然流逝</p>
+                            <p>金秋的光泽</p>
+                            <p>洒满了她的周身</p>
+                            <p>爱的旋律</p>
+                            <p>将伴她长眠</p><br>
+                            <p>秋风吻过沧桑的脸庞</p>
+                            <p>叶子欢悦地轻跳</p>
+                            <p>眼眸中</p>
+                            <p>流露出不易察觉的爱恋 </p> <br>
+                            <p>但愿别离后</p>
+                            <p>来生能再见</p><br>
+
+                            <b>來源：简书</b> <br>
+                            <b style="font-size:14px">简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</b>
+                </div>
+            </div>
+            <div id="tab3" class="weui-tab__bd-item ">
+                <h3>影院热映</h3>
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <div><img src="./img/p1.jpg" alt=""></div>
+                        <p>速度与激情7</p>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div><img src="./img/p2.jpg" alt=""></div>
+                        <p>蓝精灵</p>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div><img src="./img/p3.jpg" alt=""></div>
+                        <p>傲娇与偏见</p>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <div><img src="./img/p1.jpg" alt=""></div>
+                        <p>速度与激情7</p>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div><img src="./img/p2.jpg" alt=""></div>
+                        <p>蓝精灵</p>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div><img src="./img/p3.jpg" alt=""></div>
+                        <p>傲娇与偏见</p>
+                    </div>
+                </div>
+                <div class="weui-loadmore">
+                    <i class="weui-loading"></i>
+                    <span class="weui-loadmore__tips">正在加载</span>
+                </div>
+            </div>
+            <div id="tab4" class="weui-tab__bd-item">
+                <div class="weui-msg">
+                    <div class="weui-msg__icon-area"><i class="weui-icon_msg weui-icon-info"></i></div>
+                    <div class="weui-msg__text-area">
+                        <h2 class="weui-msg__title">您还没有登录哦</h2>
+                        <p class="weui-msg__desc">未登录是无法查看的哦,已有账号请登录,没有账号请先注册!</p>
+                    </div>
+                    <div class="weui-msg__opr-area">
+                        <p class="weui-btn-area">
+                            <a href="javascript:;" class="weui-btn weui-btn_primary">立即登录</a>
+                            <a href="javascript:;" class="weui-btn weui-btn_default">立即注册</a>
+                        </p>
+                    </div>
+                    <div class="weui-msg__extra-area">
+                        <div class="weui-footer">
+                            <p class="weui-footer__links">
+                                <a href="javascript:void(0);" class="weui-footer__link">底部链接文本</a>
+                            </p>
+                            <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+        <div class="weui-tabbar">
+            <a href="#tab1" class="weui-tabbar__item weui-bar__item--on">
+                <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+                <div class="weui-tabbar__icon">
+                    <img src="img/home.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">首页</p>
+            </a>
+            <a href="#tab2" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="img/read.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">阅读</p>
+            </a>
+            <a href="#tab3" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="img/movie.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">电影</p>
+            </a>
+            <a href="#tab4" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="img/user.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">我的</p>
+            </a>
+        </div>
+        <div class="kong2"></div>
+    </div>
+
+
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-weui.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+<script src="js/weui.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        speed: 1000,
+        autoplay : 5000,
+        loop: true,
+        pagination: '.swiper-pagination',
+        onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素 
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function (swiper) {
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+    })
+    $(document.body).infinite(50);
+$('#tab4 .weui-btn').click(function(){
+     $.toptip('操作失败！', 2000, 'error');
+})
+   
+</script>
+
+</html>

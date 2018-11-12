@@ -1,0 +1,82 @@
+
+body {
+    width: 100%;
+    height: 100%;
+}
+#douban{
+    position: fixed;
+    z-index: 3;
+    top:0;
+    width:100%;
+    background:#1aad19;
+    font:900 28px/42px '黑';
+    text-align: center;
+    color:white
+}
+.weui-tab{padding-bottom: 42px}
+.weui-tabbar{
+    position: fixed;
+    z-index: 3;
+    bottom:0;
+}
+.kong{
+    height:42px;
+}
+.kong2{
+    height:52px;
+}
+
+.swiper-container {
+    width: 100%;
+}
+.swiper-container img {
+    width: 100%;
+}
+#tab1 h3,#tab3 h3{
+    width: 90%;
+    margin: auto;
+    font: 20px/40px "微软雅黑";
+}
+.weui-grids{
+    width:90%;
+    margin: auto
+}
+.weui-grid__icon{
+    width:60%;
+    height:60%
+}
+.weui-grid__label{
+    font-size:22px
+}
+.read_cont{
+    padding:0 10px;
+}
+.read_cont img{
+    display: block;
+    width: 100%;
+    margin: auto
+}
+
+#tab2 h2{
+    height:60px;
+    font:25px/60px '微软雅黑'
+}
+#tab2 h5{
+    height: 30px;
+    font: 15px/30px '微软雅黑';
+}
+#tab2 p{
+    font:18px/38px '微软雅黑';
+}
+#tab3 .weui-flex{
+    padding:0 10px;
+}
+#tab3 .weui-flex .weui-flex__item{
+   margin:0 5px 10px;
+} 
+#tab3 .weui-flex .weui-flex__item img{
+    width: 100%;
+}
+b{
+    font-weight: bold
+}
